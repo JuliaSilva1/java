@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex004</title>
+</head>
+
+<body>
+    <h1>Resgistro de visitas</h1>
+    <button onclick="botao4()">Cadastrar nova Pessoa</button>
+    <p>Pessoas que passaram por aqui</p>
+    <p id="Mostraronome">Aqui exibiremos nosso resultado</p>
+
+
+    <script>
+        function botao4() {
+            var nome = prompt("Qual seu nome?")
+            document.getElementById("Mostraronome").innerHTML += `<br> &#x1F596 Acabei de cadastrar <strong> ${nome}</strong>  no sistema`
+        } 
+    </script>
+
+</body>
+
+</html>

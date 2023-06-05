@@ -1,0 +1,30 @@
+div{
+    margin: 0 auto;
+    width: 600px;
+    box-shadow: 2px 2px 5px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
+}
+h1{
+    color: aquamarine;
+    text-align: center;
+}
+body{
+    background-color: rgb(90, 146, 237);
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: white;
+}
+.acertou{
+    color: rgb(15, 235, 99);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    padding: 10px;
+}
